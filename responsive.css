@@ -1,0 +1,269 @@
+.checkbtn{
+     color: white;
+     font-size: 25px;
+     margin-right: 20px;
+     padding: 5px 4px 5px 4px;
+     display: none;
+     border-radius: 5px;
+     border: 2px solid white;
+}
+#check{
+    display: none;
+}
+@media (max-width:576px){
+    .nav-Links{
+        background-color:  #37517e;
+        position: absolute;
+        top: 65px;
+        flex-direction: column;
+        display: none;
+        height: 400px;
+        width: 100%;
+    }
+    .nav-Links li{
+        background-color:  #37517e;
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-Links li:hover{
+        background-color: #47b2e4;
+    }
+    .checkbtn{
+        display: block;
+    }
+    #check:checked~.nav-Links{
+        display: flex;
+    }
+    .heroSection{
+        padding: 50px 30px;
+        overflow: hidden;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .heroImg{
+        width: 100%;
+    }
+    .heroImg img{
+        width: 100%;
+    }
+    .content h1{
+        font-size: 25px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content button{
+        padding: 3px;
+        border-radius: 20px;
+    }
+    .nav-Links1 img{
+        width: 50px;
+    }
+    
+.content .Button{
+    margin-left: 10px;
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+}
+.aboutUs1{
+    width: 100%;
+    padding-left: 10px;
+}
+.aboutUs2{
+    width: 100%;
+    padding-left: 12px;
+}
+.contentSection{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.contentImg {
+    width: 550px;
+    /* height: 250px; */
+    padding-left: 100px;
+}
+.Content h4{
+    width: 90%;
+    padding-left: 20px;
+}
+.Content p{
+    width: 90%;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.Content .contentp li{
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+}
+.Content .contentp li a{
+    width: 100%;
+    padding-left: 10px;
+}
+.Content .contentp li i{
+    padding-left: 10px;
+}
+.contentp{
+    margin-left: -40px;
+}
+.viewContainer{
+    display: flex;
+    flex-direction: column;
+}
+.viewContainer img{
+    width: 525px;
+    margin-left: 15px;
+}
+.viewContent h4{
+       width: 100%;
+       padding-top: 10px;
+       margin-left: -30px;
+}
+.viewContent p{
+    width: 100%;
+    margin-left: -30px;
+}
+.Container{
+    margin-left: -50px;
+    /* width: 500px; */
+}
+.serviceSection p{
+    width: 120%;
+    text-align: center;
+    margin-left: -40px;
+}
+.service{
+    width: 140%;
+}
+.service h4{
+    margin-right: 30px;
+}
+.callContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+.callSection{
+    width: 88%;
+}
+.call-button{
+    width: 100%;
+    /* padding-bottom: 40px; */
+    padding-left: 120px;
+}
+.callSection h4{
+    margin-left: 70px;
+}
+.callSection p{
+    /* margin-left: -90px; */
+    /* width: 120%; */
+    width: 120%;
+    text-align: center;
+    margin-left: -90px;
+
+}
+.portfolioSection p{
+    width: 90%;
+    margin-left: 30px;
+}
+.portfolio-Links{
+    margin-left: 150px;
+    width: 50%;
+}
+.TeamSection{
+    width: 100%;
+    margin-left: 30px;
+}
+.teamSection p{
+    width: 120%;
+    text-align: center;
+    margin-left: -80px;
+}
+.teamHeader img{
+    margin-left: 10px;
+}
+.pricingsection{
+    width: 100%;
+}
+.pricingsection p{
+    width: 120%;
+    text-align: center;
+    margin-left: -80px;
+    padding-right: 20px;
+
+}
+.PricingCard{
+    padding-left: 30px;
+}
+.cardSection{
+    margin-left: -60px;
+}
+.contactSection{
+    width: 120%;
+    text-align: center;
+    margin-left: -80px;
+    padding-right: 20px;
+
+}
+.contactContainer .heading .greyline  {
+           margin-left: 40px;
+}
+.contactsection-links{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-left: -150px;
+}
+.Contact-Links form{
+    width: 130%;
+}
+.formname{
+    width: 100%;
+}
+.contactSection p{
+    width: 100%;
+    text-align: center;
+    margin-left: -120px;
+}
+.contactContainer .heading h2{
+    margin-left: -180px;
+}
+.jointSection .heading p{
+    padding-left: 20px;
+    
+}
+.jointbutton{
+    margin-left: -360px;
+}
+.contacticonSection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    padding-left: 20px;
+}
+.contacticonSection .arsha{
+    padding-bottom: 20px ;
+}
+.contacticonSection .UsefulLinks{
+    padding-bottom: 20px ;
+}
+.contacticonSection .OurServices{
+    padding-bottom: 20px ;
+}
+
+
+    
+    
+
+
+    
+
+}
